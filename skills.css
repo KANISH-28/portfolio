@@ -1,3 +1,26 @@
+body{
+    margin:0;
+    background:url("PORSCHE GT4 RS drifting.webp") no-repeat center center;
+    background-size:cover;
+    animation:bgMove 20s infinite alternate ease-in-out;
+}
+
+@keyframes bgMove{
+    0%{
+        background-size:100%;
+        background-position:center;
+    }
+
+    50%{
+        background-size:115%;
+        background-position:top;
+    }
+
+    100%{
+        background-size:125%;
+        background-position:bottom;
+    }
+}
 /* General Reset */
 * {
   margin: 0;
