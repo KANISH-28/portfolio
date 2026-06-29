@@ -1,0 +1,53 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body with Background Image */
+body {
+  background: url("PORSCHE GT4 RS drifting.webp") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About Section */
+#about {
+  background: rgba(255,255,255,0.85);
+  color: #333;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+#about h2 {
+  color: #4a90e2;
+  margin-bottom: 1rem;
+}
+
+/* Back Button */
+.back-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #357ABD;
+}
